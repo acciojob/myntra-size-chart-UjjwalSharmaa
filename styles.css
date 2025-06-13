@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+ body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .size-chart {
+      border-collapse: collapse;
+      width: 80%;
+      max-width: 600px;
+      background-color: pink;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .size-chart th,
+    .size-chart td {
+      border: 1px solid black;
+      text-align: center;
+      padding: 12px;
+    }
+
+    .size-chart th {
+      background-color: darkred;
+      color: white;
+      font-weight: bold;
+    }
